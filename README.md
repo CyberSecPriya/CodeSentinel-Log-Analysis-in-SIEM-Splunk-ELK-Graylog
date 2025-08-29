@@ -86,7 +86,9 @@ Through this log analysis exercise in the TryHackMe SIEM Lab (Splunk + Sysmon lo
 
 This investigation reflects real-world SIEM workflows and develops skills in threat detection, incident investigation, and security event correlation.
 
-# Tools Used: Splunk (TryHackMe SIEM Lab), Sysmon Logs.
+# Tools Used:
+
+- Splunk (TryHackMe SIEM Lab), Sysmon Logs.
 
 > # Note:
  
