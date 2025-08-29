@@ -19,7 +19,7 @@ The main steps included:
 
 **Query Used:**
 
-``index=* | stats count by index, host | sort -count```
+``index=* | stats count by index, host | sort -count``
 
 
 **Explanation:**
@@ -88,7 +88,7 @@ This investigation reflects real-world SIEM workflows and develops skills in thr
 
 # Tools Used: Splunk (TryHackMe SIEM Lab), Sysmon Logs.
 
- # Note:
+> # Note:
  
 > This analysis was performed inside the TryHackMe SIEM Lab using Splunk with Sysmon logs.
  
