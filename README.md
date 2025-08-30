@@ -24,9 +24,9 @@ The main steps included:
 
 **Explanation:**
 
-This query lists all hosts and indexes that are sending logs into Splunk. It provides visibility into the monitored machines and helps identify which ones may be relevant for investigation.
+This query lists the hosts that are sending logs into Splunk from the ``windowslogs`` index. In this case, we can see that the host ``cyber-host`` has contributed 12,256 events. This provides visibility into which machines are being monitored and helps narrow down targets for further investigation.
 
-# Evidence:
+# Evidence - Hosts Sending Logs:
 
 <img width="1897" height="585" alt="host ss1" src="https://github.com/user-attachments/assets/12c0ff30-a264-4a8f-8013-fc8e09cea7b7" />
 
