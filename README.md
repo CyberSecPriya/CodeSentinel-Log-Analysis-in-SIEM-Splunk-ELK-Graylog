@@ -55,9 +55,9 @@ This query identifies the earliest and latest log timestamps in the dataset. In 
 
 **Explanation:**
 
-The timechart visualization highlights spikes in log activity across different hosts. Spikes often indicate unusual behavior such as brute-force attempts, privilege escalation, or malware beaconing. A host showing abnormal activity was chosen for deeper investigation.
+The timechart visualization shows the volume of log events over time for each host. Spikes in activity may indicate suspicious behavior such as brute-force login attempts, privilege escalation attempts, or malware beaconing. This visualization helps quickly spot unusual activity that requires deeper investigation.
 
-# Evidence (Visualization):
+# Evidence - Log Activity Spike Visualization (Timechart by Host):
 
 <img width="1897" height="868" alt="Suspicious_Activity_Spike_Chart" src="https://github.com/user-attachments/assets/66d7c7cf-519b-4431-ae4b-db4090c71af9" />
 
