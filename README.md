@@ -26,7 +26,7 @@ The main steps included:
 
 This query lists all hosts and indexes that are sending logs into Splunk. It provides visibility into the monitored machines and helps identify which ones may be relevant for investigation.
 
-# Screenshot:
+# Evidence:
 
 <img width="1897" height="585" alt="host ss1" src="https://github.com/user-attachments/assets/12c0ff30-a264-4a8f-8013-fc8e09cea7b7" />
 
@@ -42,7 +42,7 @@ This query lists all hosts and indexes that are sending logs into Splunk. It pro
 
 This shows the first and last log timestamps in the dataset. Knowing the time range is important to understand when the potential attack occurred.
 
-# Screenshot:
+# Evidence:
 
 <img width="1897" height="568" alt="log_time_range" src="https://github.com/user-attachments/assets/a5f567ec-fda7-4bd1-b9db-c92f99e5fbd8" />
 
@@ -57,7 +57,7 @@ This shows the first and last log timestamps in the dataset. Knowing the time ra
 
 The timechart visualization highlights spikes in log activity across different hosts. Spikes often indicate unusual behavior such as brute-force attempts, privilege escalation, or malware beaconing. A host showing abnormal activity was chosen for deeper investigation.
 
-# Screenshot (Visualization):
+# Evidence (Visualization):
 
 <img width="1897" height="868" alt="Suspicious_Activity_Spike_Chart" src="https://github.com/user-attachments/assets/66d7c7cf-519b-4431-ae4b-db4090c71af9" />
 
@@ -71,7 +71,7 @@ The timechart visualization highlights spikes in log activity across different h
 
 We extracted 12,245 events for the suspicious host. This timeline shows the chronological sequence of logs, helping to reconstruct what happened during the spike. Such analysis is useful to identify possible brute-force attempts or unusual system activity.
 
-# Screenshot (Table Output):
+# Evidence (Table Output):
 
 <img width="1898" height="862" alt="Suspicious_Host_Timeline" src="https://github.com/user-attachments/assets/5dc44e46-07c2-4016-8580-5ac227e1781a" />
 
