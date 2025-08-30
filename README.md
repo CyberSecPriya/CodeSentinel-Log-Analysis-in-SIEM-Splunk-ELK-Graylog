@@ -19,7 +19,7 @@ The main steps included:
 
 **Query Used:**
 
-``index=* | stats count by index, host | sort -count``
+``index=Windowslogs | stats count by index, host | sort -count``
 
 
 **Explanation:**
@@ -34,7 +34,7 @@ This query lists all hosts and indexes that are sending logs into Splunk. It pro
 
 **Query Used:**
 
-``index=* | stats earliest(_time) as first_log latest(_time) as last_log 
+``index=Windowslogs | stats earliest(_time) as first_log latest(_time) as last_log 
 | convert ctime(first_log) ctime(last_log)``
 
 
@@ -51,7 +51,7 @@ This shows the first and last log timestamps in the dataset. Knowing the time ra
 
 **Query Used:**
 
-``index=* | timechart count by host``
+``index=Windowslogs | timechart count by host``
 
 **Explanation:**
 
