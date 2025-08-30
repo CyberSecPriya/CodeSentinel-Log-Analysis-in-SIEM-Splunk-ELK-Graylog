@@ -65,7 +65,7 @@ The timechart visualization highlights spikes in log activity across different h
 
 **Query Used:**
 
-``index=windowslogs host="SUSPICIOUS_HOST" | table _time host sourcetype source``
+``index=windowslogs hostName | table _time host sourcetype source``
 
 **Explanation:**
 
