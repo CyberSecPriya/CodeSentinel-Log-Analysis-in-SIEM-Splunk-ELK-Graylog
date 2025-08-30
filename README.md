@@ -69,9 +69,9 @@ The timechart visualization shows the volume of log events over time for each ho
 
 **Explanation:**
 
-We extracted 12,245 events for the suspicious host. This timeline shows the chronological sequence of logs, helping to reconstruct what happened during the spike. Such analysis is useful to identify possible brute-force attempts or unusual system activity.
+We extracted 12,245 log events for the suspicious host. This timeline presents the chronological sequence of events, helping reconstruct activities during the spike. Such analysis is valuable for identifying brute-force attempts, privilege escalation, or other unusual system behaviors.
 
-# Evidence (Table Output):
+# Evidence - Suspicious Host Timeline(Table Output):
 
 <img width="1898" height="862" alt="Suspicious_Host_Timeline" src="https://github.com/user-attachments/assets/5dc44e46-07c2-4016-8580-5ac227e1781a" />
 
