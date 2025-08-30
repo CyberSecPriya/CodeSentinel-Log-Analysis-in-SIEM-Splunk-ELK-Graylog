@@ -40,7 +40,7 @@ This query lists the hosts that are sending logs into Splunk from the ``windowsl
 
 **Explanation:**
 
-This shows the first and last log timestamps in the dataset. Knowing the time range is important to understand when the potential attack occurred.
+This query identifies the earliest and latest log timestamps in the dataset. In this case, logs span from April 15, 2022 (first_log) to July 14, 2022 (last_log). Determining the log time range is crucial because it helps analysts understand the monitoring window and narrow down when suspicious activity or potential attacks may have occurred.
 
 # Evidence:
 
