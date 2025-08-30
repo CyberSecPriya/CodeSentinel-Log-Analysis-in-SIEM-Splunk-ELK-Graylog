@@ -90,10 +90,10 @@ This investigation reflects real-world SIEM workflows and develops skills in thr
 
 - Splunk (TryHackMe SIEM Lab), Sysmon Logs.
 
-> # Note:
+ # Note:
  
-> This analysis was performed inside the TryHackMe SIEM Lab using Splunk with Sysmon logs.
+- This analysis was performed inside the TryHackMe SIEM Lab using Splunk with Sysmon logs.
  
-> The dataset was provided for training purposes and may not reflect a full production environment.
+- The dataset was provided for training purposes and may not reflect a full production environment.
  
-> The goal of this project is to practice log analysis, attack investigation, and security event correlation in a controlled lab environment.  
+- The goal of this project is to practice log analysis, attack investigation, and security event correlation in a controlled lab environment.  
